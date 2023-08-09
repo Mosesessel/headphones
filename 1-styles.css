@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body,p,a,ul,li,h1,h2 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	list-style-type: none;
+    text-align: center;
+}
+
+/* styling */
+
+body {
+	margin: 0;
+    padding: 0;
+    font-family: 'SourceSansPro-Regular.otf';
+    line-height: 1;
+}
+ 
+
+
+/* HEADER */
+.hero-container{
+    background-image: url('assets/headphones_hero_1.jpg');
+    background-position: center;
+    background-size: cover;   
+}
+.hero-wrapper{
+    margin: auto;
+    height: 100vh;
+    padding: 15%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    margin: 5% auto;
+}
+.nav{
+    text-decoration: none;
+    color: white;
+}
+.nav-item{
+    text-decoration: none;
+    color: white;
+}
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.menu-line{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 30px;
+}
+.menu-line:nth-child(2){
+    width: 20px;
+}
+.menu-icon{
+    display: none;
+}
+.header-logo{
+    margin: 10% 0;
+}
+.hero-wrapper{
+    padding: 0 20%;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    gap: 5%;
+}
+
+.navbar-menu ul li{
+    list-style: none;
+}
+.navbar-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Menu bar 
+.navbar-menu {
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-family-bold);
+    font-weight: 500;
+}
+
+
+/* Hero Section */
+.Banner{
+   display: none;
+}
+.Banner-content{
+    color: white;
+    text-decoration: none;
+    font-size: 180%;
+}
+.Banner-content h2{
+    color: white;
+    text-decoration: none;
+    font-size: 50%;
+}
+.Banner-content {
+    padding: 3%;
+}
+.Banner-content button{
+    background: var(--primary);
+    border-radius: 40%;
+    padding: 3%;
+    margin: 4%;
+    background-color: red;
+    box-shadow: 1%;
+    text-decoration: none;
+    color: white;
+}

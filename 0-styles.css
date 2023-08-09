@@ -23,6 +23,7 @@ body {
 }
  
 
+
 /* HEADER */
 .hero-container{
     background-image: url('assets/headphones_hero_1.jpg');
@@ -43,7 +44,12 @@ body {
     margin: 5% auto;
 }
 .nav{
-    display: none;
+    text-decoration: none;
+    color: white;
+}
+.nav-item{
+    text-decoration: none;
+    color: white;
 }
 .menu-icon {
     display: flex;
@@ -73,6 +79,16 @@ body {
     list-style-type: none;
     gap: 5%;
 }
+
+.navbar-menu ul li{
+    list-style: none;
+}
+.navbar-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Menu bar 
 .navbar-menu {
     color: white;
     text-decoration: none;
@@ -80,6 +96,7 @@ body {
     font-weight: 500;
 }
 
+.
 
 /* Hero Section */
 .Banner{
@@ -108,7 +125,3 @@ body {
     text-decoration: none;
     color: white;
 }
-
-ul {
-	list-style: none;
-}    
