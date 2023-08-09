@@ -30,20 +30,29 @@ body {
     padding: 1%;
 }
 
-/* top section */
-.Note{
-   display: none;
+/* Base section */
+.base{
+    background-image: url('assets/headphones_hero_2.jpg');
+    background-position: center;
+    background-size: cover;   
 }
-.Note-content{
-    color: black;
+.base-note h1{
+color: white;
+text-align: center;
+text-decoration: none;
+padding: 5%;
+}
+.base-note p{
+    text-align: center;
+    color: whitesmoke;
     text-decoration: none;
-    font-size: 180%;
     padding: 2%;
 }
-.media{
+.dots{
     display: flex;
     align-items: center;
     justify-content: center;
     justify-items: space-around;
-    padding: 1%; 
+    padding: 1%;
+
 }
