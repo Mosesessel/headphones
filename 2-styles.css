@@ -23,13 +23,27 @@ body {
 }
 
 
-.Head{
+.Head-title{
     text-align: center;
     font-weight: 400%;
     font-size:x-large;
+    color: whitesmoke;
     padding: 1%;
 }
 
+.Note-content{
+    color: black;
+    text-decoration: none;
+    font-size: 180%;
+    padding: 2%;
+}
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: space-around;
+    padding: 5%; 
+}
 /* Base section */
 .base{
     background-image: url('assets/headphones_hero_2.jpg');

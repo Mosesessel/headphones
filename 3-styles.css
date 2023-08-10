@@ -1,0 +1,49 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body,p,a,ul,li,h1,h2 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	list-style-type: none;
+    text-align: center;
+}
+
+/* styling */
+
+body {
+	margin: 0;
+    padding: 0;
+    font-family: 'SourceSansPro-Regular.otf';
+    line-height: 1;
+}
+
+
+.Contact{
+    text-align: center;
+    font-weight: 400%;
+    font-size:x-large;
+    color: black;
+    padding: 2%;
+}
+
+
+/* contact section */
+
+.h2{
+    align-items: left;
+}
+button{
+    background: var(--primary);
+    border-radius: 40%;
+    padding: 3%;
+    margin: 4%;
+    background-color: red;
+    box-shadow: 1%;
+    text-decoration: none;
+    color: white;
+}
